@@ -53,6 +53,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['home'] = 'szendvics';
 $route['add-szendvics'] = 'szendvics/add_szendvics';
 $route['add-szendvics-post'] = 'szendvics/add_szendvics_post';
+$route['szendvics-update'] = 'szendvics/szendvics_update';
+$route['szendvics-update-post'] = 'szendvics/szendvics_update_post';
+$route['szendvics-delete'] = 'szendvics/szendvics_delete';
+$route['szendvics-delete-post'] = 'szendvics/szendvics_delete_post';
 
 $route['default_controller'] = 'szendvics';
 $route['404_override'] = '';
